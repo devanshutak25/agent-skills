@@ -1,6 +1,6 @@
-# Claude Skills
+# Agent Skills
 
-A collection of reference skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that give Claude deep, up-to-date knowledge of specific technologies.
+A collection of reference skills for AI coding agents (Claude Code, Cursor, Codex, Windsurf, and more) that provide deep, up-to-date knowledge of specific technologies.
 
 ## Skills
 
@@ -21,14 +21,8 @@ A collection of reference skills for [Claude Code](https://docs.anthropic.com/en
 
 ## Installation
 
-Install all skills at once:
+Install all skills from this repo:
 
 ```bash
-npx @anthropic-ai/claude-code skills add ./skills/*
-```
-
-Or install individual skills:
-
-```bash
-npx @anthropic-ai/claude-code skills add ./skills/react-reference
+npx skills add devanshutak25/agent-skills
 ```
